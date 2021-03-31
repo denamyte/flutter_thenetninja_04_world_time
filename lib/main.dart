@@ -5,7 +5,7 @@ import 'package:thenetninja_04_world_time/pages/loading.dart';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
-  initialRoute: "/home",
+  initialRoute: "/",
   routes: {
     "/": (context) => Loading(),
     "/home": (context) => Home(),
