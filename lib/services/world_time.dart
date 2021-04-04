@@ -14,7 +14,7 @@ class WorldTime {
 
     try {
       // http://worldtimeapi.org/api/timezone/Europe/London
-      http.Response response = await http.get(Uri.https('worldtimeapi.org', '/api/timezoned/$url'));
+      http.Response response = await http.get(Uri.https('worldtimeapi.org', '/api/timezone/$url'));
       Map<String, dynamic> data = jsonDecode(response.body);
       // print(data);
 
